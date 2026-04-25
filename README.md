@@ -14,37 +14,6 @@ This repository contains the research paper and accompanying Java source code fo
 
 ---
 
-## Repository Structure
-
-```
-.
-├── paper.pdf                        # Final research paper (AAAI format)
-├── README.md                        # This file
-└── src/
-    ├── main/java/
-    │   ├── shared/
-    │   │   └── Die.java             # Shared Die interface
-    │   ├── manual/
-    │   │   ├── RandomDie.java       # Random implementation
-    │   │   ├── FixedDie.java        # Fixed value implementation (for testing)
-    │   │   ├── LoggedDie.java       # Decorator that logs each roll
-    │   │   ├── Game.java            # Game class (no annotations)
-    │   │   └── MainManual.java      # Manual entry point
-    │   └── guice/
-    │       ├── RandomDie.java       # Random implementation
-    │       ├── FixedDie.java        # Fixed value implementation (for testing)
-    │       ├── LoggedDie.java       # Decorator that logs each roll
-    │       ├── Game.java            # Game class (@Inject annotated)
-    │       ├── GameModule.java      # Guice binding module
-    │       └── MainDI.java          # Guice entry point
-    └── test/java/
-        ├── ManualGameTest.java      # Unit tests for manual system
-        ├── GuiceGameTest.java       # Unit tests for Guice system
-        └── ChangeLocalityTest.java  # Tests demonstrating change locality
-```
-
----
-
 ## Dependencies
 
 | Dependency | Version | Purpose |
