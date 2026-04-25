@@ -90,6 +90,10 @@ mvn exec:java -Dexec.mainClass="guice.MainDI"
 
 ---
 
+### Alternatively, in IntelliJ IDEA
+1. Right-click the `src/test/java` folder
+2. Select **Run 'All Tests'**
+
 ## What the Code Demonstrates
 
 | Research Question | Relevant Files |
